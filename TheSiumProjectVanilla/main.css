@@ -23,10 +23,19 @@ a {
   color: white !important;
 }
 
-#siumntbg {
+ #siumntbg{
  
-    background: rgba(0, 0, 0, 0)
-    url("./assets/sabato.jpg") no-repeat fixed center;
+    /* background: rgba(0, 0, 0, 0)
+    url("./assets/sabato.jpg") no-repeat  center;
+
+    background-size: cover; */
   
-  
+    
+    height: 100vw;
+} 
+img{
+
+  width: 100%;
+  height: auto;
+
 }

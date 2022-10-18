@@ -6,15 +6,15 @@ html {
   max-width: 100%;
 }
 
-.ronaldo{
-
-  background-image: url('https://media.tenor.com/t3eKwU-odDgAAAAM/sui-siu.gif');
-
+.ronaldo {
+  background-image: url("https://media.tenor.com/t3eKwU-odDgAAAAM/sui-siu.gif");
 }
 
-audio{display: none;}
+audio {
+  display: none;
+}
 
-.siumwrap{
+.siumwrap {
   padding: 80px;
   box-shadow: 2px 2px 2px black;
 }
