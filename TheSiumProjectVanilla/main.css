@@ -1,0 +1,21 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.clock {
+  background: rgba(0, 0, 0, 0.65)
+    url("https://wallpapercave.com/wp/wp3332365.jpg");
+  background-blend-mode: darken;
+}
+
+#hoover {
+  background-color: yellow;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  color: whitesmoke !important;
+}
