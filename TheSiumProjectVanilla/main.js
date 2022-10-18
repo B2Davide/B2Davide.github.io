@@ -14,17 +14,20 @@ let updateHour = () => {
 
   document.getElementById("date").innerHTML = `${gg}/${mm}/${yyyy}`;
   document.getElementById("hour").innerHTML = `${hh}:${mn}:${ss}`;
+  
 };
 
-var audio = new Audio('C:/Users/utente/Documents/Can i SIum/canisium/TheSiumProjectVanilla/assets/urloDelSium.mp3');
-audio.play();
+let siumCheck = () => {
 
-document
-  .getElementsByTagName("button")[0]
-  .addEventListener("click", (openPopUp = () => {
+  let date = new Date();
 
-    window.open('https://javascript.info/')
+  if(date.getDay() === 6){document.getElementById("redirect").href = 'siumnt.html'}else{document.getElementById("redirect").href = 'sium.html'} 
 
-  }));
+};
+
+// var audio = new Audio('http://localhost:5500/canisium/TheSiumProjectVanilla/assets/urloDelSium.mp3');
+// audio.play();
 
 setInterval(updateHour, 1000);
+
+siumCheck();
