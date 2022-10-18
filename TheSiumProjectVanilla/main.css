@@ -24,9 +24,9 @@ a {
 }
 
 #siumntbg {
-  background: rgba(0, 0, 0, 0)
-    url("http://localhost:5500/canisium/TheSiumProjectVanilla/assets/sabato.jpg") no-repeat fixed center;
-
+ 
+    background: rgba(0, 0, 0, 0)
+    url("./assets/sabato.jpg") no-repeat fixed center;
   
   
 }
